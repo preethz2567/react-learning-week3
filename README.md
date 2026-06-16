@@ -2,9 +2,9 @@
 ## What I Learned
 
 ### JavaScript Prerequisites (had to do these first)
-- **Arrow functions** —  no `return` keyword needed for single expressions
-- **Destructuring** — objects and arrays. Similar to Python's tuple unpacking
-- **Array methods** — `map`, `filter`, `find`, `reduce`. 
+- **Arrow functions** - no `return` keyword needed for single expressions
+- **Destructuring** -objects and arrays. Similar to Python's tuple unpacking
+- **Array methods** - `map`, `filter`, `find`, `reduce`. 
 - JavaScript's `===` vs `==` — always use `===` (strict equality)
 
 ### React Basics
