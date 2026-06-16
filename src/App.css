@@ -1,0 +1,329 @@
+/* ============================================================
+   App.css — Basic styles for Week 3 Practice
+   Not trying to make it look perfect, just readable enough
+   ============================================================ */
+
+/* Import a nicer font — Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+/* --- Reset / Base --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f1117;
+  color: #e2e8f0;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* --- App Layout --- */
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+.app-header {
+  text-align: center;
+  padding: 40px 20px 32px;
+  border-bottom: 1px solid #1e2535;
+  margin-bottom: 40px;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7dd3fc;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.app-subtitle {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* --- Practice Sections --- */
+.practice-section {
+  margin-bottom: 48px;
+  padding: 28px;
+  background: #161b27;
+  border: 1px solid #1e2a3a;
+  border-radius: 12px;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #93c5fd;
+  margin-bottom: 6px;
+}
+
+.section-desc {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+/* --- Counter Component --- */
+.counter-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.counter-container h2 {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+}
+
+.counter-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #7dd3fc;
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 20px;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.counter-buttons button {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #1e3a5f;
+  color: #93c5fd;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.counter-buttons button:hover {
+  background: #2563eb;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.counter-buttons button:active {
+  transform: translateY(0);
+}
+
+/* --- TodoList Component --- */
+.todo-container {
+  padding: 8px;
+}
+
+.todo-container h2 {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-bottom: 4px;
+}
+
+.todo-count {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+.todo-input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  background: #0f1117;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.todo-input:focus {
+  border-color: #3b82f6;
+}
+
+.todo-input::placeholder {
+  color: #475569;
+}
+
+.todo-add-btn {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.todo-add-btn:hover {
+  background: #1d4ed8;
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.todo-item {
+  padding: 10px 14px;
+  background: #1a2035;
+  border: 1px solid #1e2a3a;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  letter-spacing: 0.1px;
+}
+
+/* --- UserCard Component --- */
+.user-cards-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  flex: 1;
+  min-width: 200px;
+  background: #1a2035;
+  border: 1px solid #1e2a3a;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+  border-color: #3b82f6;
+}
+
+.user-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.user-role-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.user-email {
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+/* --- UseEffect Demo --- */
+.effect-demo-container {
+  padding: 8px;
+}
+
+.effect-demo-container h2 {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-bottom: 16px;
+}
+
+.effect-info-box {
+  background: #1a2035;
+  border: 1px solid #1e2a3a;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.effect-info-box p {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.effect-count {
+  margin-top: 8px;
+  font-size: 1.2rem !important;
+  color: #e2e8f0 !important;
+  font-family: 'Fira Code', monospace;
+}
+
+.effect-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.effect-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #312e81;
+  color: #a5b4fc;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.effect-buttons button:hover {
+  background: #4338ca;
+  color: #fff;
+}
+
+.effect-notes {
+  color: #475569;
+  font-size: 0.8rem;
+}
+
+/* --- App Main & Footer --- */
+.app-main {
+  padding: 0;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #334155;
+  font-size: 0.8rem;
+  border-top: 1px solid #1e2535;
+  margin-top: 20px;
+}
