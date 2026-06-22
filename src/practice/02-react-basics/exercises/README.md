@@ -27,6 +27,12 @@ Used ternary operator as well as && shorthand for conditional rendering, learnt 
 
 <img width="1917" height="1063" alt="image" src="https://github.com/user-attachments/assets/c45a0f0e-0c4a-4978-849f-155e3b565c17" />
 
+## Ex 5 - Inline CSS
+
+Completed the exercise by creating a ColorBox Component and Price Tag Component and adding styles to it using objects 
+
+<img width="1918" height="835" alt="image" src="https://github.com/user-attachments/assets/9e650037-801a-41b7-adcf-69fe0646f1dd" />
+
 
 
 
