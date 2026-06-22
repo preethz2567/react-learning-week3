@@ -14,5 +14,12 @@ This file contains step wise exercises I have done for understanding each topic 
 This is the output for ex-02
 <img width="1911" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f6d5976-b928-4e43-b280-0b78fa31d94d" />
 
+## Exercise 3- Props
+
+Used props concept for moving data from one component to another , completed exercise and here is the output
+
+<img width="1917" height="1116" alt="image" src="https://github.com/user-attachments/assets/e37ac2aa-3fb4-4529-90ea-e71a6aac71ec" />
+
+
 
 
