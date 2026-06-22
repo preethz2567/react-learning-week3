@@ -21,5 +21,12 @@ Used props concept for moving data from one component to another , completed exe
 <img width="1917" height="1116" alt="image" src="https://github.com/user-attachments/assets/e37ac2aa-3fb4-4529-90ea-e71a6aac71ec" />
 
 
+## Exercise 4 - Conditional Rendering
+
+Used ternary operator as well as && shorthand for conditional rendering, learnt using an example of passing login status as props and displaying log out button, and an example of displaying a message based on temperature provided as props.
+
+<img width="1917" height="1063" alt="image" src="https://github.com/user-attachments/assets/c45a0f0e-0c4a-4978-849f-155e3b565c17" />
+
+
 
 
