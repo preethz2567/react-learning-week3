@@ -33,6 +33,13 @@ Completed the exercise by creating a ColorBox Component and Price Tag Component 
 
 <img width="1918" height="835" alt="image" src="https://github.com/user-attachments/assets/9e650037-801a-41b7-adcf-69fe0646f1dd" />
 
+## Ex 6 - Using separate file for CSS and importing it in jsx file
+Have used an external css file called Stylesheet.css to write css code component wise and imported the file in Stylesheet.jsx, used same className to access those particular css properties.
+
+<img width="1917" height="892" alt="image" src="https://github.com/user-attachments/assets/4c6efeed-1775-426a-a4d5-cbebf5477599" />
+
+
+
 
 
 
