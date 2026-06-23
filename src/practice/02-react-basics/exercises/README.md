@@ -38,6 +38,17 @@ Have used an external css file called Stylesheet.css to write css code component
 
 <img width="1917" height="892" alt="image" src="https://github.com/user-attachments/assets/4c6efeed-1775-426a-a4d5-cbebf5477599" />
 
+## Ex 7 - UseState 
+Learnt about State management and useState by creating a LikedButton that changes the value displayed dynamically by button toggling
+<img width="1912" height="876" alt="image" src="https://github.com/user-attachments/assets/476aaeb6-0037-4999-9fcb-b25c1890b2d8" />
+<img width="1912" height="876" alt="image" src="https://github.com/user-attachments/assets/22d19ce6-2d67-4bc2-b13b-704d574ed481" />
+<img width="1912" height="932" alt="image" src="https://github.com/user-attachments/assets/ade6cb58-8b53-4124-9fb8-04e6b6edbcb8" />
+
+
+
+
+
+
 
 
 
